@@ -33,10 +33,8 @@ export class UsersComponent implements AfterViewInit {
     try {
       const response = await axios.request(options);
       this.data = response.data.data;
-      if (this.table && this.table.nativeElement) {
-        console.log("should worl");
+      if (this.table && this.table.nativeElement)
         setTimeout(() => { $(this.table!.nativeElement).DataTable(); }, 500);
-      }
     } catch (error) {
       console.error(error);
     }
