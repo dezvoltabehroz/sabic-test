@@ -12,12 +12,12 @@ Assessment for the Position of Developer in SABIC.
 
 ## Installation
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/dezvoltabehroz/sabic-test.git`
 2. Install dependencies: `npm install`
 
 ## Usage
 
-1. Run the development server: `ng serve`
+1. Run the development server: `npm run start`
 2. Open the application in your browser: `http://localhost:4200`
 
 ## Features
